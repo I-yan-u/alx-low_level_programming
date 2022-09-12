@@ -1,0 +1,4 @@
+- Using Varibles and other fuctions
+- Other functions like if, else, while
+- Helps with conditional programming
+- and all other similar things...
