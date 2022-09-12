@@ -1,0 +1,2 @@
+- Hello world in C
+- some important codes to get there

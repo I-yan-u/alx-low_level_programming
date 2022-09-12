@@ -1,0 +1,4 @@
+- alx low level programming
+- including some shell programms
+- and majorly C programs
+- first dive into C
