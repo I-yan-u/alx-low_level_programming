@@ -16,6 +16,4 @@ void print_diagonal(int n);
 
 void print_square(int size);
 
-//9 fizzbuzz
-
 void print_triangle(int size);
