@@ -18,5 +18,5 @@ printf("%d, ", a[i]);
 else
 printf("%d", a[i]);
 }
-_putchar(10)
+_putchar(10);
 }
