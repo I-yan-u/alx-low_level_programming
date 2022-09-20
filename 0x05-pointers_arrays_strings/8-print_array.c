@@ -18,5 +18,4 @@ printf("%d, \n", a[i]);
 else
 printf("%d\n", a[i]);
 }
-_putchar(10);
 }
