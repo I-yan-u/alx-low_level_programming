@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * print_rev - prints a string reversed
  * @s: string to print
@@ -9,7 +10,7 @@
 
 void print_rev(char *s)
 {
-int p = _strlen(s);
+int p = strlen(s);
 int i = p - 1;
 while (*(s + i) != '\0')
 {
