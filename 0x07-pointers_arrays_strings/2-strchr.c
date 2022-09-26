@@ -1,9 +1,10 @@
 #include "main.h"
+#define NULL 0
 
 /**
  * _strchr - function that copies memory area.
- * @s - source string
- * @c - character to check
+ * @s: source string
+ * @c: character to check
  *
  * Return: Returns a pointer
  */
