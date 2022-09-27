@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - searches a string for any of a set of bytes.
- * @s: the string to be searched
- * @accept: the string to check with
+ * _strstr- searches a string for any of a set of bytes.
+ * @haystack: the string to be searched
+ * @needle: the string to check with
  *
  * Return: The string
  *
@@ -17,7 +17,7 @@ while (needle[len] != '\0')
 {
 len++;
 }
-for (i = 0; *(haystack + i) != '\0'; i++)
+for (i = 0; haystack[i] != '\0'; i++)
 {
 for (j = 0; j < len && haystack[i] == needle[j]; j++, i++)
 {
