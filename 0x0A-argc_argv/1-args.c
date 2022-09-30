@@ -12,7 +12,12 @@
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	printf("%d\n", argc);
+	if (argc > 1)
+	{
+		printf("%d\n", argc);
+	}
+	else
+		printf("%d\n", argc - 1);
 	return (0);
 }
 
