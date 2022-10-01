@@ -22,7 +22,7 @@ else
 {
 	int mul = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", mul);
+	return (0);
 }
-return (0);
 }
 
