@@ -12,7 +12,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int lens1, lens2, i, j, len;
+	unsigned int lens1, lens2, i, len;
 	char *arr;
 
 	lens1 = 0;
@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	while (*(s2 + lens2) != '\0')
 	{
-		lens2++
+		lens2++;
 	}
 
 	len = lens1 + lens2;
@@ -40,11 +40,11 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (i = 0; i < lens1; i++)
 	{
-		a[i] = s1[i];
+		arr[i] = s1[i];
 	}
 	for (i = 0; i < lens2; i++)
 	{
-		a[i + lens1] = s2[i];
+		arr[i + lens1] = s2[i];
 	}
 
 	return (arr);
