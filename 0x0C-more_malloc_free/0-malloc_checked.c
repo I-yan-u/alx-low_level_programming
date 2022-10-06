@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <sdtlib.h>
 
 /**
  * malloc_checked - To check the space allocated
@@ -12,14 +10,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *checker;
+	void *ptr;
 
-	checker = malloc(b);
-	if (checker == NULL)
-	{
+	ptr = malloc(b);
+	if (ptr == NULL)
 		exit(98);
-	}
-	return (checker);
-
+	return (ptr);
 }
 
