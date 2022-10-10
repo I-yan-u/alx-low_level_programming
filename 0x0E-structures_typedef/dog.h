@@ -4,15 +4,16 @@
 
 /**
  * struct dog - Characteristic data of a dog
- * @name - The dogs name
- * @age - The dogs age
- * @owner - The name of its owner
+ * @name: The dogs name
+ * @age: The dogs age
+ * @owner: The name of its owner
  *
  * Description: This structure helps in describing
  * a dog.
  */
 
-struct dog{
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
