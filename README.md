@@ -1,4 +1,4 @@
-- alx low level programming
-- including some shell programms
-- and majorly C programs
-- first dive into C
+# Data types, struct and typedef
+- How to use struct in c
+- How struct works
+- How to use typedef to create new data types
