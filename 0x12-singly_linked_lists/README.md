@@ -13,8 +13,8 @@
 
 ```
 struct foo{
-	int i;
-	char *fooo;
+	int i;		//some post-defined data
+	char *fooo;	//The pointer to the neaxt link
 };
 
 ```
