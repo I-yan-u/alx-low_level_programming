@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * _str_len - checks lenght of string
+ * _strlen - checks lenght of string
  * @str: string to be checked
  *
  * Return: lenght of string
