@@ -1,9 +1,9 @@
 #include "lists.h"
 
-void __attribute__ ((constructor)) beforeMain();
+void __attribute__ ((constructor)) beforeMain(void);
 
 /**
- * bmain - prints text before main
+ * beforeMain - prints text before main
  *
  * Return: void
  */
