@@ -3,6 +3,8 @@
 /**
  * listint_len - count nodes in list
  * @h: pointer to first node
+ *
+ * Return: lenght of a list.
  */
 
 size_t listint_len(const listint_t *h)
@@ -37,7 +39,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	if (head == NULL)
 		return (NULL);
 	if (index >= list_len)
-		return(NULL);
+		return (NULL);
 
 	for (n = 0; n < index && n < list_len; n++)
 	{
