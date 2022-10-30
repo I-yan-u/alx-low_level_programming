@@ -28,3 +28,7 @@ How the works around bit manipulations and binary manipulations are carried out!
 
 	* Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
+
+--- 
+Yan 
+---
