@@ -3,6 +3,7 @@
 /**
  * get_dnodeint_at_index - Gets node at selected position(index)
  * @head: The pointer to first nde
+ * @index: The position of choice (starting from 0)
  *
  * Return: Node at index.
  */
