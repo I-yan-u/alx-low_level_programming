@@ -1,0 +1,4 @@
+#Make file for alx school executable
+
+all: school.c main.c m.h
+	gcc main.c school.c -o school
