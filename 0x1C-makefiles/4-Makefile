@@ -1,16 +1,16 @@
 #Make file for alx school executable
 CC = gcc
 SRC = main.c school.c
-OBJ = $(SRC:%.c=%.o)
+OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	$(CC) $(SRC) -o $(NAME)
 
-%.o: %.c
-	$(CC) -c $< -o $@
+%.o: %.c m.h
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	$(RM) -f *~ $(NAME)
